@@ -1,0 +1,151 @@
+/** navbar **/
+
+.nav-item {
+    letter-spacing:.2em;
+    font-size:16px;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-family: 'Patua One', cursive;
+}
+
+
+.dropdown-item {
+    letter-spacing:3px;
+    font-size:14px;
+    text-transform:uppercase;
+    font-family: 'Patua One', cursive;
+    }
+
+/** footer **/
+.body {
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    }
+
+.my_footer  {
+    background-color:black;
+    color:white;
+    height:50px;
+    bottom: 0;
+    width: 100%;
+    margin-top:auto;
+
+    }
+.my_footer p{
+   padding-top:20px;
+   font-size:12px;
+    }
+
+/* category */
+
+.rowclass{
+    padding-top:15px;
+}
+
+.rowclass mx-auto{
+    color:black;
+    font-size:14px;
+}
+
+.cat_image{
+    width:100%;
+    height:auto;
+    }
+
+.cat_title{
+    font-size:20px;
+    text-transform:uppercase;
+    letter-spacing:.2em;
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    }
+
+.cat_img_padding{
+    padding:5px;
+    }
+
+/** items- category  **/
+.cat_bottom_margin{
+    margin-bottom:15px;
+    }
+
+.card-body h4 {
+    font-size:13px;
+    text-transform:uppercase;
+    letter-spacing:.2em;
+    }
+
+/*** product **/
+
+.product_row {
+    padding-top:15px;
+    padding-bottom:20px;
+    }
+.product_row .mx_auto{
+    color:black;
+    font-size:16px;
+    text-decoration:none;
+}
+
+.prod_title {
+    font-size:16px;
+    text-transform:uppercase;
+    letter-spacing:.2em;
+    padding-top:15px;
+    padding-bottom:10px;
+}
+
+.prod_text{
+    padding-right:20px;
+}
+
+.p_title{
+    font-size:10px;
+}
+
+search-text {
+    padding-top:20px;
+
+    }
+
+/** cart **/
+
+.cart-title{
+    font-size:20px;
+    text-transform:uppercase;
+    letter-spacing:.2em;
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    }
+
+.cart-table {
+   min-width:400px;
+   font-size:14px;
+   }
+
+.cart-thead {
+    font-weight:normal;
+    text-transform:uppercase;
+    letter-spacing:.2em;
+    background-color:lightgrey!important;
+    }
+
+
+.custom_a{
+    text-decoration:none;
+    }
+
+.cart-icon{
+    text-decoration:none;
+    color:blue;important;
+    }
+
+.cart-button{
+    margin-top:5px;
+    }
+
+.cart-image{
+    width:50%;
+    height:250;
+    }
